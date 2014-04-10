@@ -1,0 +1,103 @@
+﻿@model Entaria.Models.Admin
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Admin</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastLoginDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastLoginDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FailedLoginCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FailedLoginCount)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoginFailureContactNotification)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoginFailureContactNotification)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ModificationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModificationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastModifiedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastModifiedByUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreatedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreatedByUserName)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

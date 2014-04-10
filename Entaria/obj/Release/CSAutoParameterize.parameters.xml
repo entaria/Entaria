@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EntariaContext-Web.config Connection String" description="EntariaContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=EntariaContext-20140410220612; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|EntariaContext-20140410220612.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\hugh\\projects\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntariaContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\hugh\\projects\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="EntariaContext_DatabasePublish-Web.config Connection String" description="EntariaContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="EntariaContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\hugh\\projects\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntariaContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

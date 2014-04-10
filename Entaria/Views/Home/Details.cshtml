@@ -1,0 +1,99 @@
+﻿@model Entaria.Models.Admin
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Admin</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastLoginDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastLoginDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FailedLoginCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FailedLoginCount)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoginFailureContactNotification)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoginFailureContactNotification)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ModificationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModificationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastModifiedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastModifiedByUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreatedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreatedByUserName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AdminId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
