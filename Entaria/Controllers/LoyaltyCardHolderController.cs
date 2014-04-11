@@ -10,7 +10,7 @@ using Entaria.Models;
 namespace Entaria.Controllers
 {
     public class LoyaltyCardHolderController : Controller
-    {
+    { // well Done Adrian looks good
         private EntariaContext db = new EntariaContext();
 
         //
