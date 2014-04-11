@@ -174,3 +174,7 @@ C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.csproj.Generat
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.dll
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.pdb
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Adrian_mann.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.firstcard.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Adrian_mann.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_01.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_02.resources

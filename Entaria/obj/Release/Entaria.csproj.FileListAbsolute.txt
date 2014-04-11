@@ -172,3 +172,7 @@ C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entari
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.pdb
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.firstcard.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Adrian_mann.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_01.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_02.resources
