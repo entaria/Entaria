@@ -24,5 +24,9 @@ namespace Entaria.Models
         public DbSet<Reader> Readers { get; set; }
 
         public DbSet<LoyaltyCardHolder> LoyaltyCardHolders { get; set; }
+
+        public DbSet<Client> Clients { get; set; }
+
+        public DbSet<Location> Locations { get; set; }
     }
 }
