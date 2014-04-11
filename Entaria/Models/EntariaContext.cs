@@ -18,5 +18,7 @@ namespace Entaria.Models
         }
 
         public DbSet<Admin> Admins { get; set; }
+
+        public DbSet<Card> Cards { get; set; }
     }
 }

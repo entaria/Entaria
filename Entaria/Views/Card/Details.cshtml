@@ -1,0 +1,29 @@
+﻿@model Entaria.Models.Card
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Card</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoyaltyCardHolderId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoyaltyCardHolderId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Number)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Number)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CardId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
