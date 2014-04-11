@@ -28,5 +28,11 @@ namespace Entaria.Models
         public DbSet<Client> Clients { get; set; }
 
         public DbSet<Location> Locations { get; set; }
+
+        public DbSet<ClientCardBalance> ClientCardBalances { get; set; }
+
+        public DbSet<Transaction> Transactions { get; set; }
+
+        public DbSet<TransactionType> TransactionTypes { get; set; }
     }
 }

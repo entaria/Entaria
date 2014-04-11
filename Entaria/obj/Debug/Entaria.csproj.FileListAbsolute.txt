@@ -178,3 +178,6 @@ C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.firstcard.re
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Adrian_mann.resources
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_01.resources
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_02.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_03.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_04.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_05.resources

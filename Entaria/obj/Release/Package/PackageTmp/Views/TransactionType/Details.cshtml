@@ -1,0 +1,22 @@
+﻿@model Entaria.Models.TransactionType
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>TransactionType</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TransactionTypeName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TransactionTypeName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TransactionTypeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

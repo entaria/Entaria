@@ -1,0 +1,86 @@
+﻿@model Entaria.Models.Transaction
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Transaction</legend>
+
+        @Html.HiddenFor(model => model.TransactionId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ClientId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ClientId)
+            @Html.ValidationMessageFor(model => model.ClientId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LocationId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LocationId)
+            @Html.ValidationMessageFor(model => model.LocationId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ReaderId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ReaderId)
+            @Html.ValidationMessageFor(model => model.ReaderId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CardId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CardId)
+            @Html.ValidationMessageFor(model => model.CardId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ReceiptNumber)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ReceiptNumber)
+            @Html.ValidationMessageFor(model => model.ReceiptNumber)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TransactionTypeId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TransactionTypeId)
+            @Html.ValidationMessageFor(model => model.TransactionTypeId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TransactionTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TransactionTime)
+            @Html.ValidationMessageFor(model => model.TransactionTime)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

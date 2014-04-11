@@ -183,11 +183,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardController.cs" />
+    <Compile Include="Controllers\ClientCardBalanceController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocationController.cs" />
     <Compile Include="Controllers\LoyaltyCardHolderController.cs" />
     <Compile Include="Controllers\ReaderController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
+    <Compile Include="Controllers\TransactionTypeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -211,6 +214,18 @@
     <Compile Include="Migrations\201404111320003_Hugh_02.cs" />
     <Compile Include="Migrations\201404111320003_Hugh_02.Designer.cs">
       <DependentUpon>201404111320003_Hugh_02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201404111643264_Hugh_03.cs" />
+    <Compile Include="Migrations\201404111643264_Hugh_03.Designer.cs">
+      <DependentUpon>201404111643264_Hugh_03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201404111649492_Hugh_04.cs" />
+    <Compile Include="Migrations\201404111649492_Hugh_04.Designer.cs">
+      <DependentUpon>201404111649492_Hugh_04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201404111653055_Hugh_05.cs" />
+    <Compile Include="Migrations\201404111653055_Hugh_05.Designer.cs">
+      <DependentUpon>201404111653055_Hugh_05.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -369,6 +384,21 @@
     <Content Include="Views\Location\Create.cshtml" />
     <Content Include="Views\Location\Edit.cshtml" />
     <Content Include="Views\Location\Delete.cshtml" />
+    <Content Include="Views\ClientCardBalance\Index.cshtml" />
+    <Content Include="Views\ClientCardBalance\Details.cshtml" />
+    <Content Include="Views\ClientCardBalance\Create.cshtml" />
+    <Content Include="Views\ClientCardBalance\Edit.cshtml" />
+    <Content Include="Views\ClientCardBalance\Delete.cshtml" />
+    <Content Include="Views\Transaction\Index.cshtml" />
+    <Content Include="Views\Transaction\Details.cshtml" />
+    <Content Include="Views\Transaction\Create.cshtml" />
+    <Content Include="Views\Transaction\Edit.cshtml" />
+    <Content Include="Views\Transaction\Delete.cshtml" />
+    <Content Include="Views\TransactionType\Index.cshtml" />
+    <Content Include="Views\TransactionType\Details.cshtml" />
+    <Content Include="Views\TransactionType\Create.cshtml" />
+    <Content Include="Views\TransactionType\Edit.cshtml" />
+    <Content Include="Views\TransactionType\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -391,6 +421,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201404111320003_Hugh_02.resx">
       <DependentUpon>201404111320003_Hugh_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404111643264_Hugh_03.resx">
+      <DependentUpon>201404111643264_Hugh_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404111649492_Hugh_04.resx">
+      <DependentUpon>201404111649492_Hugh_04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404111653055_Hugh_05.resx">
+      <DependentUpon>201404111653055_Hugh_05.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
