@@ -7,6 +7,7 @@ namespace Entaria.Migrations
     {
         public override void Up()
         {
+            // change for Hugh
             CreateTable(
                 "dbo.Cards",
                 c => new
