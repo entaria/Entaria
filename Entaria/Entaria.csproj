@@ -184,6 +184,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReaderController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -191,6 +192,10 @@
     <Compile Include="Migrations\201404102120414_Initial.cs" />
     <Compile Include="Migrations\201404102120414_Initial.Designer.cs">
       <DependentUpon>201404102120414_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201404110908020_firstcard.cs" />
+    <Compile Include="Migrations\201404110908020_firstcard.Designer.cs">
+      <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -328,6 +333,11 @@
     <Content Include="Views\Card\Create.cshtml" />
     <Content Include="Views\Card\Edit.cshtml" />
     <Content Include="Views\Card\Delete.cshtml" />
+    <Content Include="Views\Reader\Index.cshtml" />
+    <Content Include="Views\Reader\Details.cshtml" />
+    <Content Include="Views\Reader\Create.cshtml" />
+    <Content Include="Views\Reader\Edit.cshtml" />
+    <Content Include="Views\Reader\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -338,6 +348,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201404102120414_Initial.resx">
       <DependentUpon>201404102120414_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404110908020_firstcard.resx">
+      <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
