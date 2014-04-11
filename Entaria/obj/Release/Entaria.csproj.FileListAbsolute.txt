@@ -261,3 +261,8 @@ C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.A
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.dll
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.pdb
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_01.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_02.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_03.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_04.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_05.resources
