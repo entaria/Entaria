@@ -173,3 +173,4 @@ C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.fir
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.csproj.GenerateResource.Cache
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.dll
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.pdb
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Adrian_mann.resources
