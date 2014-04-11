@@ -22,5 +22,7 @@ namespace Entaria.Models
         public DbSet<Card> Cards { get; set; }
 
         public DbSet<Reader> Readers { get; set; }
+
+        public DbSet<LoyaltyCardHolder> LoyaltyCardHolders { get; set; }
     }
 }

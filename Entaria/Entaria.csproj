@@ -184,6 +184,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoyaltyCardHolderController.cs" />
     <Compile Include="Controllers\ReaderController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -338,6 +339,11 @@
     <Content Include="Views\Reader\Create.cshtml" />
     <Content Include="Views\Reader\Edit.cshtml" />
     <Content Include="Views\Reader\Delete.cshtml" />
+    <Content Include="Views\LoyaltyCardHolder\Index.cshtml" />
+    <Content Include="Views\LoyaltyCardHolder\Details.cshtml" />
+    <Content Include="Views\LoyaltyCardHolder\Create.cshtml" />
+    <Content Include="Views\LoyaltyCardHolder\Edit.cshtml" />
+    <Content Include="Views\LoyaltyCardHolder\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
