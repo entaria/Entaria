@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201404110908020_firstcard.Designer.cs">
       <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201404111148083_Adrian_mann.cs" />
+    <Compile Include="Migrations\201404111148083_Adrian_mann.Designer.cs">
+      <DependentUpon>201404111148083_Adrian_mann.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -358,6 +362,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201404110908020_firstcard.resx">
       <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404111148083_Adrian_mann.resx">
+      <DependentUpon>201404111148083_Adrian_mann.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
