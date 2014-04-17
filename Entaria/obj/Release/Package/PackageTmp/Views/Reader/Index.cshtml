@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Entaria.Models.Reader>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LocationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HardwareIdentifier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AttachedToNote)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocationId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HardwareIdentifier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AttachedToNote)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ReaderId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ReaderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ReaderId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,36 @@
+﻿@model Entaria.Models.Reader
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Reader</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LocationId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LocationId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.HardwareIdentifier)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HardwareIdentifier)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AttachedToNote)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AttachedToNote)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ReaderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

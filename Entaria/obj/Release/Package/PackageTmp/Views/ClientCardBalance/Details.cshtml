@@ -1,0 +1,36 @@
+﻿@model Entaria.Models.ClientCardBalance
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>ClientCardBalance</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CardId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CardId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ClientId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ClientId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PointsBalance)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PointsBalance)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ClientCardBalanceId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
