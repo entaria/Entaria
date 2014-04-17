@@ -1,0 +1,36 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+Entaria.v11.suo
+EntariaContext-20140410220612.mdf
+EntariaContext-20140410220612_log.ldf
+Entaria.csproj
+Entaria.csproj.user
+adrian-entaria.pubxml
+adrian-entaria.pubxml.user
+entaria - Web Deploy.pubxml
+Web.config
+Entaria.dll
+Entaria.pdb
+DesignTimeResolveAssemblyReferencesInput.cache
+Entaria.csproj.FileListAbsolute.txt
+Entaria.csproj.GenerateResource.Cache
+Entaria.csprojResolveAssemblyReference.cache
+Entaria/obj/Debug/Entaria.dll
+Entaria/obj/Debug/Entaria.pdb
+Entaria/obj/Release/CSAutoParameterize.parameters.xml
+Entaria/obj/Release/CSAutoParameterize/original/Web.config
+Entaria/obj/Release/CSAutoParameterize/transformed/Web.config
+Entaria/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+Entaria/obj/Release/Entaria.csproj.FileListAbsolute.txt
+Entaria/obj/Release/Entaria.csproj.GenerateResource.Cache
+Entaria/obj/Release/Entaria.csprojResolveAssemblyReference.cache
+Entaria/obj/Release/Entaria.dll
+Entaria/obj/Release/Entaria.pdb
+Entaria/obj/Release/InsertEFCodeFirstDeploy/original/Web.config
+Entaria/obj/Release/InsertEFCodeFirstDeploy/transformed/Web.config
+Entaria/obj/Release/Package/Entaria.SourceManifest.xml
+Entaria/obj/Release/Package/PackageTmp/Web.config
+Entaria/obj/Release/Package/PackageTmp/bin/Entaria.dll
+Entaria/obj/Release/TransformWebConfig/original/Web.config
+Entaria/obj/Release/TransformWebConfig/transformed/Web.config
+Entaria/obj/Release/_WPPLastBuildInfo.txt
