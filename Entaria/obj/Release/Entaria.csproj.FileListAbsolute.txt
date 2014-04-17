@@ -268,3 +268,5 @@ C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_02.re
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_03.resources
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_04.resources
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_05.resources
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.dll
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.xml
