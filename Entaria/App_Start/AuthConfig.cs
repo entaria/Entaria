@@ -22,11 +22,12 @@ namespace Entaria
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "595751640520969",
+                appSecret: "4b39718d35b6050076d7a21b0f565707");
 
-            //OAuthWebSecurity.RegisterGoogleClient();
+            OAuthWebSecurity.RegisterGoogleClient();
+            OAuthWebSecurity.RegisterYahooClient();
         }
     }
 }
