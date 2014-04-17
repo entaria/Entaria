@@ -183,3 +183,14 @@ C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_05.reso
 C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.dll
 C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.xml
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.csprojResolveAssemblyReference.cache
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Ninject.dll
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Mono.Math.dll
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Ninject.xml
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Mono.Math.xml
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_01.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_02.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_03.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_04.resources
+C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh_05.resources
