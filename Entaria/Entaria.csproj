@@ -193,6 +193,7 @@
     <Compile Include="Controllers\ClientCardBalanceController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LCHRegistrationController.cs" />
     <Compile Include="Controllers\LocationController.cs" />
     <Compile Include="Controllers\LoyaltyCardHolderController.cs" />
     <Compile Include="Controllers\ReaderController.cs" />
@@ -414,6 +415,8 @@
     <Content Include="Views\TransactionType\Create.cshtml" />
     <Content Include="Views\TransactionType\Edit.cshtml" />
     <Content Include="Views\TransactionType\Delete.cshtml" />
+    <Content Include="Views\UserTypeRegistration\Index.cshtml" />
+    <Content Include="Views\LCHRegistration\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
