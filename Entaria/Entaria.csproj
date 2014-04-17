@@ -198,6 +198,7 @@
     <Compile Include="Controllers\ReaderController.cs" />
     <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Controllers\TransactionTypeController.cs" />
+    <Compile Include="Controllers\UserTypeRegistrationController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
