@@ -24,5 +24,13 @@ namespace Entaria.Models
         public DbSet<Reader> Readers { get; set; }
 
         public DbSet<LoyaltyCardHolder> LoyaltyCardHolders { get; set; }
+
+        public DbSet<Rfid> Rfids { get; set; }
+
+        public DbSet<ClientCardBalance> ClientCardBalances { get; set; }
+
+        public DbSet<Transaction> Transactions { get; set; }
+
+        public DbSet<TransactionType> TransactionTypes { get; set; }
     }
 }

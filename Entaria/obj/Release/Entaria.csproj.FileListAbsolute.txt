@@ -167,8 +167,12 @@ C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entari
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\ru\System.Spatial.resources.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\zh-Hans\System.Spatial.resources.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\zh-Hant\System.Spatial.resources.dll
-C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.Initial.resources
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.pdb
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.reader.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.ccb.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.transactions.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.transacts.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache

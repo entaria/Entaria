@@ -9,33 +9,33 @@ using Entaria.Models;
 
 namespace Entaria.Controllers
 {
-    public class CardController : Controller
+    public class TransactionController : Controller
     {
         private EntariaContext db = new EntariaContext();
 
         //
-        // GET: /Card/
+        // GET: /Transaction/
 
         public ActionResult Index()
         {
-            return View(db.Cards.ToList());
+            return View(db.Transactions.ToList());
         }
 
         //
-        // GET: /Card/Details/5
+        // GET: /Transaction/Details/5
 
         public ActionResult Details(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Transaction transaction = db.Transactions.Find(id);
+            if (transaction == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(transaction);
         }
 
         //
-        // GET: /Card/Create
+        // GET: /Transaction/Create
 
         public ActionResult Create()
         {
@@ -43,73 +43,73 @@ namespace Entaria.Controllers
         }
 
         //
-        // POST: /Card/Create
+        // POST: /Transaction/Create
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Card card)
+        public ActionResult Create(Transaction transaction)
         {
             if (ModelState.IsValid)
             {
-                db.Cards.Add(card);
+                db.Transactions.Add(transaction);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(card);
+            return View(transaction);
         }
 
         //
-        // GET: /Card/Edit/5
+        // GET: /Transaction/Edit/5
 
         public ActionResult Edit(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Transaction transaction = db.Transactions.Find(id);
+            if (transaction == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(transaction);
         }
 
         //
-        // POST: /Card/Edit/5
+        // POST: /Transaction/Edit/5
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Card card)
+        public ActionResult Edit(Transaction transaction)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(card).State = EntityState.Modified;
+                db.Entry(transaction).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(card);
+            return View(transaction);
         }
 
         //
-        // GET: /Card/Delete/5
+        // GET: /Transaction/Delete/5
 
         public ActionResult Delete(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Transaction transaction = db.Transactions.Find(id);
+            if (transaction == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(transaction);
         }
 
         //
-        // POST: /Card/Delete/5
+        // POST: /Transaction/Delete/5
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Card card = db.Cards.Find(id);
-            db.Cards.Remove(card);
+            Transaction transaction = db.Transactions.Find(id);
+            db.Transactions.Remove(transaction);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -5,13 +5,13 @@ namespace Entaria.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    public sealed partial class firstcard : IMigrationMetadata
+    public sealed partial class ccb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(firstcard));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ccb));
         
         string IMigrationMetadata.Id
         {
-            get { return "201404110908020_firstcard"; }
+            get { return "201404171211258_ccb"; }
         }
         
         string IMigrationMetadata.Source
