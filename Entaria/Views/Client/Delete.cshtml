@@ -1,0 +1,159 @@
+﻿@model Entaria.Models.Client
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Client</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CompanyName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CompanyName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MainContactTitle)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MainContactTitle)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MainContactName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MainContactName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryStreet)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryStreet)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryTown)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryTown)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryCity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryCity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryCounty)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryCounty)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryCountry)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryCountry)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryGeoCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryGeoCode)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Website)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Website)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PrimaryPhone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrimaryPhone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.VatNumber)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.VatNumber)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastLoginDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastLoginDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FailedLoginCount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FailedLoginCount)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LoginFailureContactNotification)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LoginFailureContactNotification)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ModificationDateTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModificationDateTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastModifiedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastModifiedByUserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreatedByUserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreatedByUserName)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

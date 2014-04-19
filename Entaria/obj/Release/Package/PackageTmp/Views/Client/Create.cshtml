@@ -1,0 +1,188 @@
+﻿@model Entaria.Models.Client
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Client</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CompanyName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CompanyName)
+            @Html.ValidationMessageFor(model => model.CompanyName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MainContactTitle)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MainContactTitle)
+            @Html.ValidationMessageFor(model => model.MainContactTitle)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MainContactName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MainContactName)
+            @Html.ValidationMessageFor(model => model.MainContactName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryStreet)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryStreet)
+            @Html.ValidationMessageFor(model => model.PrimaryStreet)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryTown)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryTown)
+            @Html.ValidationMessageFor(model => model.PrimaryTown)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryCity)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryCity)
+            @Html.ValidationMessageFor(model => model.PrimaryCity)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryCounty)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryCounty)
+            @Html.ValidationMessageFor(model => model.PrimaryCounty)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryCountry)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryCountry)
+            @Html.ValidationMessageFor(model => model.PrimaryCountry)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryGeoCode)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryGeoCode)
+            @Html.ValidationMessageFor(model => model.PrimaryGeoCode)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Website)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Website)
+            @Html.ValidationMessageFor(model => model.Website)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PrimaryPhone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PrimaryPhone)
+            @Html.ValidationMessageFor(model => model.PrimaryPhone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VatNumber)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VatNumber)
+            @Html.ValidationMessageFor(model => model.VatNumber)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastLoginDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastLoginDate)
+            @Html.ValidationMessageFor(model => model.LastLoginDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FailedLoginCount)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FailedLoginCount)
+            @Html.ValidationMessageFor(model => model.FailedLoginCount)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LoginFailureContactNotification)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LoginFailureContactNotification)
+            @Html.ValidationMessageFor(model => model.LoginFailureContactNotification)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreationDateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreationDateTime)
+            @Html.ValidationMessageFor(model => model.CreationDateTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ModificationDateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ModificationDateTime)
+            @Html.ValidationMessageFor(model => model.ModificationDateTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastModifiedByUserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastModifiedByUserName)
+            @Html.ValidationMessageFor(model => model.LastModifiedByUserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreatedByUserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreatedByUserName)
+            @Html.ValidationMessageFor(model => model.CreatedByUserName)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
