@@ -192,6 +192,7 @@
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\ClientCardBalanceController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
+    <Compile Include="Controllers\ClientRegistrationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LCHRegistrationController.cs" />
     <Compile Include="Controllers\LocationController.cs" />
@@ -309,6 +310,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\adrian-entaria %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\entaria - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\entaria - Web Deploy.pubxml">
       <SubType>Designer</SubType>
@@ -417,6 +419,8 @@
     <Content Include="Views\TransactionType\Delete.cshtml" />
     <Content Include="Views\UserTypeRegistration\Index.cshtml" />
     <Content Include="Views\LCHRegistration\Index.cshtml" />
+    <Content Include="Views\ClientRegistration\Index.cshtml" />
+    <Content Include="Views\UserTypeRegistration\_RegistrationTypePartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

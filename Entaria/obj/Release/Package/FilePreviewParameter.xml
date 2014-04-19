@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="Entaria" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="adrian-entaria" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ADRIAN\\Desktop\\Masters\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ADRIAN\\Desktop\\Masters\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:pgfy56f1vh.database.windows.net,1433;Initial Catalog=entariaDB;User ID=entariadmin@pgfy56f1vh;Password=a123456#" tags="">
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0;Initial Catalog=SHGolfStore;Integrated Security=True" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\ADRIAN\\Desktop\\Masters\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
-  <parameter name="EntariaContext-Web.config Connection String" description="" value="Data Source=tcp:pgfy56f1vh.database.windows.net,1433;Initial Catalog=entariaDB;User ID=entariadmin@pgfy56f1vh;Password=a123456#" tags="">
+  <parameter name="EntariaContext-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0; Initial Catalog=EntariaContext-20140410220612; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|EntariaContext-20140410220612.mdf" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\ADRIAN\\Desktop\\Masters\\Entaria\\Entaria\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntariaContext']/@connectionString" />
   </parameter>
 </parameters>
