@@ -4,6 +4,8 @@ using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
 using WebMatrix.WebData;
+//using Entaria.Abstract;
+//using Entaria.Concrete;
 using Entaria.Models;
 
 namespace Entaria.Filters

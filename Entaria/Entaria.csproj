@@ -188,6 +188,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Concrete\EFAdminRepository.cs" />
+    <Compile Include="Concrete\EntariaContext.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\ClientCardBalanceController.cs" />
@@ -205,37 +207,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\NinjectControllerFactory.cs" />
-    <Compile Include="Migrations\201404102120414_Initial.cs" />
-    <Compile Include="Migrations\201404102120414_Initial.Designer.cs">
-      <DependentUpon>201404102120414_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201404181322280_init.cs" />
+    <Compile Include="Migrations\201404181322280_init.Designer.cs">
+      <DependentUpon>201404181322280_init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201404110908020_firstcard.cs" />
-    <Compile Include="Migrations\201404110908020_firstcard.Designer.cs">
-      <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111148083_Adrian_mann.cs" />
-    <Compile Include="Migrations\201404111148083_Adrian_mann.Designer.cs">
-      <DependentUpon>201404111148083_Adrian_mann.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111305067_Hugh_01.cs" />
-    <Compile Include="Migrations\201404111305067_Hugh_01.Designer.cs">
-      <DependentUpon>201404111305067_Hugh_01.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111320003_Hugh_02.cs" />
-    <Compile Include="Migrations\201404111320003_Hugh_02.Designer.cs">
-      <DependentUpon>201404111320003_Hugh_02.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111643264_Hugh_03.cs" />
-    <Compile Include="Migrations\201404111643264_Hugh_03.Designer.cs">
-      <DependentUpon>201404111643264_Hugh_03.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111649492_Hugh_04.cs" />
-    <Compile Include="Migrations\201404111649492_Hugh_04.Designer.cs">
-      <DependentUpon>201404111649492_Hugh_04.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201404111653055_Hugh_05.cs" />
-    <Compile Include="Migrations\201404111653055_Hugh_05.Designer.cs">
-      <DependentUpon>201404111653055_Hugh_05.cs</DependentUpon>
+    <Compile Include="Migrations\201404181425574_Hugh-11.cs" />
+    <Compile Include="Migrations\201404181425574_Hugh-11.Designer.cs">
+      <DependentUpon>201404181425574_Hugh-11.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -425,29 +403,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201404102120414_Initial.resx">
-      <DependentUpon>201404102120414_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201404181322280_init.resx">
+      <DependentUpon>201404181322280_init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404110908020_firstcard.resx">
-      <DependentUpon>201404110908020_firstcard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111148083_Adrian_mann.resx">
-      <DependentUpon>201404111148083_Adrian_mann.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111305067_Hugh_01.resx">
-      <DependentUpon>201404111305067_Hugh_01.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111320003_Hugh_02.resx">
-      <DependentUpon>201404111320003_Hugh_02.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111643264_Hugh_03.resx">
-      <DependentUpon>201404111643264_Hugh_03.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111649492_Hugh_04.resx">
-      <DependentUpon>201404111649492_Hugh_04.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201404111653055_Hugh_05.resx">
-      <DependentUpon>201404111653055_Hugh_05.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201404181425574_Hugh-11.resx">
+      <DependentUpon>201404181425574_Hugh-11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

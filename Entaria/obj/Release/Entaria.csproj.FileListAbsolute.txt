@@ -83,7 +83,6 @@ c:\users\hugh\projects\Entaria\Entaria\bin\zh-Hant\System.Spatial.resources.dll
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.dll
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.pdb
-c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Initial.resources
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\Entaria.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\Entaria.pdb
@@ -261,12 +260,7 @@ C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.A
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.dll
 C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.pdb
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.firstcard.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Adrian_mann.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_01.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_02.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_03.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_04.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh_05.resources
 C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.dll
 C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.xml
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.init.resources
+C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh11.resources
