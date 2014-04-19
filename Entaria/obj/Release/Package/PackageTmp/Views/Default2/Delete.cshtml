@@ -1,0 +1,68 @@
+﻿@model Entaria.Models.Transaction
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Transaction</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ClientId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ClientId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LocationId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LocationId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ReaderId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ReaderId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CardId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CardId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ReceiptNumber)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ReceiptNumber)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TransactionTypeId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TransactionTypeId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TransactionTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TransactionTime)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

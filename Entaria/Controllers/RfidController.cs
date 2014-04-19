@@ -9,33 +9,33 @@ using Entaria.Models;
 
 namespace Entaria.Controllers
 {
-    public class CardController : Controller
+    public class RfidController : Controller
     {
         private EntariaContext db = new EntariaContext();
 
         //
-        // GET: /Card/
+        // GET: /Rfid/
 
         public ActionResult Index()
         {
-            return View(db.Cards.ToList());
+            return View(db.Rfids.ToList());
         }
 
         //
-        // GET: /Card/Details/5
+        // GET: /Rfid/Details/5
 
         public ActionResult Details(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Rfid rfid = db.Rfids.Find(id);
+            if (rfid == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(rfid);
         }
 
         //
-        // GET: /Card/Create
+        // GET: /Rfid/Create
 
         public ActionResult Create()
         {
@@ -43,73 +43,73 @@ namespace Entaria.Controllers
         }
 
         //
-        // POST: /Card/Create
+        // POST: /Rfid/Create
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Card card)
+        public ActionResult Create(Rfid rfid)
         {
             if (ModelState.IsValid)
             {
-                db.Cards.Add(card);
+                db.Rfids.Add(rfid);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(card);
+            return View(rfid);
         }
 
         //
-        // GET: /Card/Edit/5
+        // GET: /Rfid/Edit/5
 
         public ActionResult Edit(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Rfid rfid = db.Rfids.Find(id);
+            if (rfid == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(rfid);
         }
 
         //
-        // POST: /Card/Edit/5
+        // POST: /Rfid/Edit/5
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Card card)
+        public ActionResult Edit(Rfid rfid)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(card).State = EntityState.Modified;
+                db.Entry(rfid).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(card);
+            return View(rfid);
         }
 
         //
-        // GET: /Card/Delete/5
+        // GET: /Rfid/Delete/5
 
         public ActionResult Delete(int id = 0)
         {
-            Card card = db.Cards.Find(id);
-            if (card == null)
+            Rfid rfid = db.Rfids.Find(id);
+            if (rfid == null)
             {
                 return HttpNotFound();
             }
-            return View(card);
+            return View(rfid);
         }
 
         //
-        // POST: /Card/Delete/5
+        // POST: /Rfid/Delete/5
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Card card = db.Cards.Find(id);
-            db.Cards.Remove(card);
+            Rfid rfid = db.Rfids.Find(id);
+            db.Rfids.Remove(rfid);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

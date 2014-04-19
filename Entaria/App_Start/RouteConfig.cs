@@ -13,6 +13,10 @@ namespace Entaria
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+     //     routes.MapRoute("findffid", "findrfid/{Number}", new { Controller = "FindRfid", action = "GetRfidNo", Number = "" });
+           
+       //    routes.MapRoute("findffid", "findrfid/{Number}", new { Controller = "cwsController", action = "GetRfidNo", Number = "" });
+    //       routes.MapRoute("ApigetCCB2", "getCCB/{client}/{card}", new { Controller = "cws", action = "getCCB", client = "", card = "" });
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

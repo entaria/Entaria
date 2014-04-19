@@ -83,6 +83,7 @@ c:\users\hugh\projects\Entaria\Entaria\bin\zh-Hant\System.Spatial.resources.dll
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.dll
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.pdb
+c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Initial.resources
 c:\users\hugh\projects\Entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\Entaria.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\Entaria.pdb
@@ -166,101 +167,12 @@ C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entari
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\ru\System.Spatial.resources.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\zh-Hans\System.Spatial.resources.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\bin\zh-Hant\System.Spatial.resources.dll
-C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.Initial.resources
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.dll
 C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.pdb
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Entaria.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Entaria.pdb
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Antlr3.Runtime.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.AspNet.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.Core.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OAuth.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OpenId.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\EntityFramework.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Data.Edm.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Data.OData.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Newtonsoft.Json.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Net.Http.Formatting.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Spatial.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Helpers.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.OData.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.WebHost.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Mvc.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Optimization.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Razor.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.Deployment.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.Razor.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\WebGrease.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\WebMatrix.Data.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\WebMatrix.WebData.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\EntityFramework.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Newtonsoft.Json.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Net.Http.Formatting.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Helpers.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.WebHost.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Mvc.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Razor.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.Deployment.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.WebPages.Razor.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\WebMatrix.Data.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Web.WebPages.OAuth.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\WebMatrix.WebData.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.Core.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Web.Http.OData.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Data.Edm.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\Microsoft.Data.OData.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\System.Spatial.xml
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\de\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\es\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\fr\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\it\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ja\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ko\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\ru\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Initial.resources
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.firstcard.resources
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.Migrations.Adrian_mann.resources
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.csproj.GenerateResource.Cache
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.dll
-C:\Users\ADRIAN\Desktop\Masters\Entaria\Entaria\obj\Release\Entaria.pdb
-C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.dll
-C:\Users\Hugh\projects\Entaria\Entaria\bin\Ninject.xml
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.init.resources
-C:\Users\Hugh\projects\Entaria\Entaria\obj\Release\Entaria.Migrations.Hugh11.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.reader.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.ccb.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.transactions.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.Migrations.transacts.resources
+C:\National College of Ireland\Semester 2\Enterprise Applications\Project\entaria\Entaria\obj\Release\Entaria.csprojResolveAssemblyReference.cache
