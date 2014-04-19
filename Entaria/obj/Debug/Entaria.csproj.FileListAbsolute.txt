@@ -188,3 +188,7 @@ C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.csprojResolveAssemblyRe
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.csproj.GenerateResource.Cache
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.init.resources
 C:\Users\Hugh\projects\Entaria\Entaria\obj\Debug\Entaria.Migrations.Hugh11.resources
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Mono.Math.dll
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Hugh\projects\Entaria\Entaria\bin\Mono.Math.xml
