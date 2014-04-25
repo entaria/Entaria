@@ -7,8 +7,11 @@ using Entaria.Models;
 
 namespace Entaria.Abstract
 {
-    interface IAdminRepository
+    public interface IAdminRepository
     {
         IQueryable<Admin> Admins { get; }
+
+        void SaveAdmin(Admin admin);
+        Admin DeleteAdmin(int adminId);
     }
 }

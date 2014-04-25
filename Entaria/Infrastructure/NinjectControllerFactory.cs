@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Entaria.Abstract;
+using Entaria.Concrete;
+using Entaria.Models;
 using Ninject;
 
 namespace Entaria.Infrastructure
@@ -27,6 +30,7 @@ namespace Entaria.Infrastructure
         private void AddBindings()
         {
             //add bindings later
+            ninjectKernel.Bind<IAdminRepository>().To<EFAdminRepository>();
         }
 
     }

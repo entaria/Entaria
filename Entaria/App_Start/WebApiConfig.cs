@@ -9,6 +9,29 @@ namespace Entaria
     {
         public static void Register(HttpConfiguration config)
         {
+
+
+            // int client, int card, int locationId, int readerid, string receiptNo, int transactionTypeId, DateTime transactionTime 
+      /*     config.Routes.MapHttpRoute(
+              name: "ApiputCCB",
+              routeTemplate: "api/{controller}/{action}/{id}/{value}",
+              defaults: new { controller = "cws", action = "PutClientCardBalance"}
+          ); */
+          config.Routes.MapHttpRoute(
+               name: "ApipostTRANSACTION",
+               routeTemplate: "api/{controller}/{action}/{client}/{card}/{locationId}/{readerid}/{receiptNo}/{transactionTypeId}/{transactionTime}",
+               defaults: new { controller = "cws", action = "PostTRANSACTION", client = 0, card = 0, locationId =  0, readerid = 0, receiptNo = "1234567890", transactionTypeId = 0, transactionTime = System.DateTime.Now}
+           );  
+            config.Routes.MapHttpRoute(
+                name: "ApiFindRfid",
+                routeTemplate: "api/{controller}/{action}/{value}",
+                defaults: null
+            );
+            config.Routes.MapHttpRoute(
+               name: "ApigetCCB",
+               routeTemplate: "api/{controller}/{action}/{client}/{card}",
+               defaults: new { controller = "cws", client = 0, card = 0 }
+           );
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
